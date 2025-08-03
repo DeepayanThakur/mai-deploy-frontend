@@ -26,7 +26,7 @@ function sendMessage() {
         addMessage('user', message);
         input.value = '';
         /*replacing the original domain "aideploymentmai.vercel.app" into mai-deploy-frontend-ecru.vercel.app*/
-        mai-deploy-frontend-ecru.vercel.app
+        //mai-deploy-frontend-ecru.vercel.app
         fetch('https://mai-deploy-flax.vercel.app/life_chat', {
             method: 'POST',
             headers: {
